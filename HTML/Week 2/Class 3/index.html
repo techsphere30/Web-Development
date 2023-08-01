@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <h1>Welcome to HTML Forms</h1>
+    <form action="students.php">
+        <div>
+            <label for="Name">Name : </label>
+            <input type="text" id="Name" placeholder="Enter your name here">
+        </div>
+        <br>
+        <div>
+            Password : <input type="password">
+        </div>
+        <br>
+        <div>
+            Select Number : <input type="number">
+        </div>
+        <br>
+        <div>
+            Select Phone : <select name="Phone">
+                <option value="Redmi">Redmi</option>
+                <option value="POCO" selected>POCO</option>
+                <option value="OPPO">OPPO</option>
+                <option value="Samsung">Samsung</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Check : <input type="checkbox">
+        </div>
+        <br>
+        <div>
+            Gender : <input type="radio" name="gender">Male <input type="radio" name="gender"> Female<input type="radio"
+                name="gender"> Other
+        </div>
+        <br>
+        <div>
+            Date : <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Upload : <input type="file" accept="image/png, image/jpg">
+        </div>
+        <br>
+        <div>
+            Color : <input type="color">
+        </div>
+        <br>
+        <div>
+            <input type="submit">
+            <input type="button" value="i am button">
+            <input type="reset">
+        </div>
+        <br>
+        <div>
+            <label for="textarea">Comments : </label>
+            <br>
+            <textarea name="myComments" id="textarea" cols="80" rows="10"></textarea>
+        </div>
+    </form>
+
+</body>
+
+</html>
