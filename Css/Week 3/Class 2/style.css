@@ -1,0 +1,34 @@
+/* we can target a tag by 
+1. tagname
+2.class using .
+3.id using # */
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Krub:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+button {
+    background-color: rgb(255, 40, 76);
+    color: rgb(255, 255, 255);
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+button:hover {
+
+    background-color: black;
+
+}
+
+/* three color types
+1. by name !not recommended never use in projects
+2. RGB mostly used
+3. Hex code colors */
+h1 {
+    background-color: rgb(255, 238, 0);
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    /* font-weight: 500; */
+}
