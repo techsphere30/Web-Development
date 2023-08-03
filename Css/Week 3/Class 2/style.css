@@ -29,6 +29,7 @@ h1 {
     background-color: rgb(255, 238, 0);
     color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
+    /* px stands for pixel */
     font-size: 30px;
     /* font-weight: 500; */
 }

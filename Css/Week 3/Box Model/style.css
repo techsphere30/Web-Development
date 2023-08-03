@@ -1,0 +1,19 @@
+.box {
+    /* height: 100px; */
+    /* width: 100px; */
+    /* display: inline-block; */
+    border: 2px solid red;
+    padding: 21px;
+    margin: 5px;
+}
+
+button {
+    font-size: 17px;
+    /* padding: (top/bottom) (right/left); */
+    padding: 9px 16px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    margin: 5px;
+}
