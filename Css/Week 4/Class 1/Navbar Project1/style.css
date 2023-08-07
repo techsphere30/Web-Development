@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.nav {
+    padding: 25px 100px;
+    background-color: black;
+}
+
+.logo {
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.navlist {
+    position: relative;
+    top: 6px;
+    float: right;
+}
+
+.navlist li {
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.navlist li:hover {
+    color: #ffcc00;
+}
