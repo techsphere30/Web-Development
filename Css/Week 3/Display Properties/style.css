@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+}
+
+/* Path: style.css */
+h1 {
+    background-color: red;
+    display: inline-block;
+    width: 500px;
+    height: 200px;
+}
+
+h3 {
+    background-color: green;
+    display: none;
+}
+
+span {
+    background-color: yellow;
+    display: block;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    background-color: rgb(68, 61, 61);
+    width: 50vw;
+    height: 50vh;
+}
+
+.box1 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 10%;
+}
+
+.box2 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+.box3 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+/* //positions */
+/* 1. Static - By default applied */
+/* 2. Relative - Relative to its normal position */
+/* 3. Absolute - Relative to its parent */
+/* 4. Fixed - Relative to the viewport */
+/* 5. Sticky - Relative to its parent until a certain point */
