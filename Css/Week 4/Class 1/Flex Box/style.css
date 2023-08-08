@@ -11,16 +11,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* flex direction used to give flexbox a direction some of the value of flex-direction are */
+    /* row, row-reverse, column, column-reverse */
+    flex-direction: row-reverse;
+    /* flex-wrap used to wrap the flexbox */
+    /* wrap, wrap-reverse, nowrap */
 }
 
 .box1 {
     height: 200px;
     width: 200px;
     background-color: yellow;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* .box2 {
+.box2 {
     height: 200px;
     width: 200px;
     background-color: rgb(255, 0, 255);
-} */
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
