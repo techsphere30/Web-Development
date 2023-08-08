@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: 'Jost', sans-serif;
+}
+
+.landing {
+    width: 100%;
+    height: 100vh;
+    background-color: #36517C;
+}
+
+.navbar {
+    /* background-color: rgb(0, 0, 0); */
+    height: 10vh;
+    width: 100%;
+    padding: 20px 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navlist {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navlink {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.navlink:hover {
+    color: #47B3E3;
+    transition: all 0.3s ease;
+}
+
+.drop {
+    width: 15px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.common-btn {
+    padding: 7px 25px;
+    border-radius: 22px;
+    border: 2px solid #47B3E3;
+    cursor: pointer;
+}
+
+.common-btn:hover {
+    background-color: #47B3E3;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
