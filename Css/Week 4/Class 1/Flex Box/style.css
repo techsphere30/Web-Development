@@ -16,6 +16,7 @@
     flex-direction: row-reverse;
     /* flex-wrap used to wrap the flexbox */
     /* wrap, wrap-reverse, nowrap */
+    /* flex-wrap: wrap-reverse; */
 }
 
 .box1 {
