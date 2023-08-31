@@ -77,6 +77,15 @@ button:hover {
     display: none;
 }
 
+#input {
+    width: 65%;
+    padding: 10px 15px;
+    margin: 20px;
+    font-size: 25px;
+    border-radius: 8px;
+    border: 2px solid rgb(170, 1, 1);
+}
+
 
 @media (max-width : 880px) {
     /* body {
