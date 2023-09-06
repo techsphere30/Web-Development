@@ -17,7 +17,7 @@
     --gray: rgb(68, 68, 68);
 }
 
-#header {
+#landing {
     height: 100vh;
     width: 100%;
     background-color: var(--gray);
@@ -83,3 +83,89 @@
 .navlink:hover::after {
     width: 100%;
 }
+
+/* ------nav end ------------- */
+
+.header {
+    height: 88vh;
+    width: 100%;
+    padding: 0px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-left {
+    color: var(--white);
+}
+
+.intro {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.header-left h1 {
+    font-size: 60px;
+    color: var(--pink);
+    letter-spacing: 2px;
+}
+
+.intro2 {
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.header-buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 13px;
+}
+
+.btn {
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 17px;
+    font-size: 16px;
+    font-weight: 500;
+    background: var(--pink);
+    border: 1px solid transparent;
+    color: var(--ivory);
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+.hire-btn:hover {
+    background: transparent;
+    border: 1px solid var(--ivory);
+    /* letter-spacing: 1px; */
+    /* transform: scale(1.1); */
+}
+
+.cv-btn {
+    background: transparent;
+    border: 1px solid var(--ivory);
+}
+
+.cv-btn:hover {
+    background: var(--pink);
+    border: 1px solid transparent;
+}
+
+.header-right {
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.header-right img {
+    width: 80%;
+}
+
+/* -----------header end--------------- */
